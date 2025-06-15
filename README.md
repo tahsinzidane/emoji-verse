@@ -44,5 +44,3 @@ disown
 That’s it — no installation, no setup. Just click emojis and copy.
 
 ---
-
-Let me know if you want to add `.desktop` launcher or AppImage integration instructions later.
