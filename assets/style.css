@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f0f0;
+}
+
+.search-bar-container {
+  position: fixed;
+  top: 0;
+  left: 60px;
+  right: 0;
+  padding: 10px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  z-index: 1000;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 600px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.dock {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 60px;
+  height: 100%;
+  background-color: #fff;
+  border-right: 1px solid #ccc;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.dock button {
+  padding: 15px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  margin: 10px 0;
+  transition: background-color 0.2s;
+}
+
+.dock button.active {
+  background-color: #d0d0d0;
+  border-left: 3px solid #007bff;
+}
+
+.allEmojis {
+  margin-left: 70px;
+  padding: 20px;
+  padding-top: 70px;
+}
+
+.emoji-category {
+  margin-bottom: 20px;
+}
+
+.emoji-category h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.emoji-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+  gap: 12px;
+}
+
+.emoji {
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  padding: 5px;
+  border-radius: 4px;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.emoji:hover {
+  transform: scale(1.3);
+  background-color: #e0e0e0;
+}
+
+.toast {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-weight: bold;
+  z-index: 9999;
+  display: none;
+}
