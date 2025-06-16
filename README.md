@@ -6,13 +6,7 @@ A lightweight emoji picker app for Linux, packed as an AppImage.
 <img src="./assets/images/preview1.png" />
 
 <img src="./assets/images/preview2.png" />
----
 
-Fair point, bro — you’re absolutely right. If users expect the app to stay open **after closing terminal**, they’ll get confused otherwise.
-
-Let’s update the README to reflect that properly, while keeping it clean and short.
-
----
 
 ## 🧩 Emoji Verse – Install & Run (Linux)
 
