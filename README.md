@@ -41,6 +41,8 @@ nohup ./emoji-verse-*.AppImage > /dev/null 2>&1 &
 disown
 ```
 
+read full installation guid 👉🏻 [installation guid](./assets/installationGuid.md)
+
 That’s it — no installation, no setup. Just click emojis and copy.
 
 ---
