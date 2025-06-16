@@ -18,7 +18,7 @@ Let’s update the README to reflect that properly, while keeping it clean and s
 
 ### 🔽 Download
 
-Grab the latest `.AppImage` from the [Releases page](https://github.com/tahsinzidane/emoji-verse/releases).
+Grab the latest `.AppImage` from the [Releases page](https://github.com/tahsinzidane/emoji-verse/tags).
 
 ### ⚙️ Make it Executable
 
