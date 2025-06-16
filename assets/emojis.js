@@ -1,5 +1,5 @@
 const emojis = {
-  SmileEmotion: [
+  "Smile & Emotion": [
     { "char": "😀", "name": "Grinning Face" },
     { "char": "😃", "name": "Grinning Face with Big Eyes" },
     { "char": "😄", "name": "Grinning Face with Smiling Eyes" },
@@ -248,7 +248,7 @@ const emojis = {
 
   ],
   // section 2
-  PeopleBody: [
+  "People & Body": [
     { "char": "🙇🏻", "name": "Person Bowing (Light Skin Tone)" },
     { "char": "🙋🏻", "name": "Person Raising Hand (Light Skin Tone)" },
     { "char": "💁🏻", "name": "Person Tipping Hand (Light Skin Tone)" },
@@ -362,7 +362,7 @@ const emojis = {
   ],
 
   // section 3
-  AnimalsNature: [
+  "Animals & Nature": [
     { "char": "💐", "name": "Bouquet" },
     { "char": "🥀", "name": "Wilted Flower" },
     { "char": "🌺", "name": "Hibiscus" },
@@ -588,7 +588,7 @@ const emojis = {
   ],
 
   // section 4
-  FoodDrinks: [
+  "Food & Drinks": [
     { "char": "🍓", "name": "Strawberry" },
     { "char": "🍒", "name": "Cherries" },
     { "char": "🍎", "name": "Red Apple" },
@@ -724,7 +724,7 @@ const emojis = {
   ],
 
   // section 5
-  TravelPlaces: [
+  "Travel & Places": [
     { "char": "🛑", "name": "Stop Sign" },
     { "char": "🚧", "name": "Construction" },
     { "char": "🚨", "name": "Police Car Light" },
@@ -850,7 +850,7 @@ const emojis = {
   ],
 
   // section 6
-  Activities: [
+  "Activities & Games": [
     { "char": "🎉", "name": "Party Popper" },
     { "char": "🎊", "name": "Confetti Ball" },
     { "char": "🎈", "name": "Balloon" },
@@ -969,7 +969,7 @@ const emojis = {
 
 
   // section 7
-  Objects: [
+  "Objects": [
     { "char": "📱", "name": "Mobile Phone" },
     { "char": "☎️", "name": "Telephone" },
     { "char": "📞", "name": "Telephone Receiver" },
@@ -1233,7 +1233,7 @@ const emojis = {
   ],
 
   // section 8
-  Symbols: [
+  "Symbols & Icons": [
     { "char": "🔴", "name": "Red Circle" },
     { "char": "🟠", "name": "Orange Circle" },
     { "char": "🟡", "name": "Yellow Circle" },
@@ -1495,14 +1495,12 @@ const emojis = {
   ],
 
   // section 10
-  Flags: [
+  "Flags": [
     { "char": "🏁", "name": "Chequered Flag" },
     { "char": "🚩", "name": "Triangular Flag" },
     { "char": "🎌", "name": "Crossed Flags" },
     { "char": "🏴", "name": "Black Flag" },
     { "char": "🏳️", "name": "White Flag" },
-    { "char": "🏳️‍🌈", "name": "Rainbow Flag" },
-    { "char": "🏳️‍⚧️", "name": "Transgender Flag" },
     { "char": "🏴‍☠️", "name": "Pirate Flag" },
     { "char": "🇦🇨", "name": "Ascension Island" },
     { "char": "🇦🇩", "name": "Andorra" },
